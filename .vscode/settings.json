@@ -1,0 +1,5 @@
+{
+  "ruby.rubocop.onSave": true,
+  "ruby.rubocop.executePath": "/home/jesherpinkman/.rvm/gems/ruby-3.3.5/wrappers/",
+  "editor.tabSize": 2
+}

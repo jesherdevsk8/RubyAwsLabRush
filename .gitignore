@@ -1,0 +1,4 @@
+# I want to keep my .vscode/ folder, so I can keep track of my VSCode settings
+# .vscode/
+
+.env

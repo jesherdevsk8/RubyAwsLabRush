@@ -18,3 +18,6 @@ Educational project to practice AWS S3 operations using pure Ruby, perfect for:
 - Newbie devs in AWS  
 - Professionals migrating to Cloud  
 - Automation enthusiasts
+
+## 📚 Personal Documentation
+- [Documentation on how to create a bucket with policies on AWS](doc/create_bucket_s3_with_policy.md)

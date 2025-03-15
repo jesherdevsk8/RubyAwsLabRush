@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# ruby s3_delete.rb my-bucket file_on_s3.txt
+# ruby s3_delete.rb my-bucket fotos/image.png foto.png
 
 require_relative 's3_config'
 
@@ -19,7 +19,7 @@ class S3Deleter
 end
 
 # Execução via linha de comando
-if __FILE__ == $0
+if __FILE__ == $PROGRAM_NAME
   if ARGV.length != 2
     puts 'Uso: ruby s3_delete.rb <bucket_name> <object_key>'
     exit 1

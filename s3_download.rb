@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# ruby s3_download.rb my-bucket file_on_s3.txt local_path/file.txt
+# ruby s3_download.rb my-bucket image.png fotos/image.png
 
 require_relative 's3_config'
 

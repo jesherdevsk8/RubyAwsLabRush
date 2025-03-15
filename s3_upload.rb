@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# ruby s3_upload.rb my-bucket path/file.txt file_to-s3.txt
+# ruby s3_upload.rb my-bucket ~/image.png fotos/image.png
 
 require_relative 's3_config'
 
@@ -21,7 +21,7 @@ class S3Uploader
 end
 
 # Execução via linha de comando
-if __FILE__ == $0
+if __FILE__ == $PROGRAM_NAME
   if ARGV.length != 3
     puts 'Uso: ruby s3_upload.rb <bucket_name> <file_path> <object_key>'
     exit 1
